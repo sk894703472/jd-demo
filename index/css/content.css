@@ -1,0 +1,239 @@
+.index-content{
+	width: 1104px;
+	margin: 0 0 0 245px;
+}
+.slide-images{
+	width: 590px;
+	height: 470px;
+	background-color: red;
+	float: left;
+	margin-left: 20px;
+	position: relative;
+}
+.slide-images .toleft{
+	width: 20px;
+	height: 30px;
+	border: none;
+	background: url('../images/toleft.png') no-repeat rgba(0,0,0,0.3);
+	background-position: center;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	margin-top: -15px;
+}
+.slide-images .toright{
+	width: 20px;
+	height: 30px;
+	border:none;
+	background: url('../images/toright.png') no-repeat rgba(0,0,0,0.3);
+	background-position: center;
+	position: absolute;
+	top: 50%;
+	right: 0;
+	margin-top: -15px;
+}
+.slide-images .toleft:hover,.slide-images .toright:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+.slide-images .toleft:focus,.slide-images .toright:focus{
+	outline: none;
+}
+.slide-images .pointer{
+	width: 110px;
+	height: 11px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -55px;
+}
+.slide-images .pointer li{
+	float: left;
+	width: 7px;
+	height: 7px;
+	border:2px solid rgba(255,255,255,0.6);
+	border-radius: 50%;
+	margin-left: 6px;
+}
+.activity-img{
+	float: left;
+	width: 190px;
+	margin-left: 20px;
+}
+.activity-img a{
+	display: block;
+	width: 190px;
+	height: 150px;
+}
+.activity-img a:nth-of-type(2){
+	margin: 10px 0;
+}
+.activity-img a:hover{
+	opacity: 0.8;
+}
+.user-operate{
+	margin-left: 840px;
+}
+.user-operate .uo1{
+	width: 220px;
+	height: 155px;
+	background: url('../images/user-res.png');
+}
+.uo2,.uo3{
+	background-color: #fff;
+	height: 130px;
+	width: 200px;
+	color: #666;
+	padding: 0 10px;
+}
+.uo2-tags,.uo3-tags{
+	width: 200px;
+	font-size: 12px;
+	height: 18px;
+}
+.uo2-tags li,.uo3-tags li{
+	float: left;
+}
+.uo2-tags li:nth-of-type(2),
+.uo2-tags li:nth-of-type(1){
+	margin-left: 10px;
+	padding: 0 10px;
+}
+.uo2-tags li:last-of-type{
+	float: right;
+}
+.uo2-con{
+	float: left;
+	padding-top: 10px;
+}
+.uo2-con a{
+	display: inline-block;
+	width: 150px;
+	height:20px;
+	overflow: hidden;
+	white-space:nowrap;
+	text-overflow: ellipsis;
+	padding-left: 10px;
+}
+.uo2-con li:nth-of-type(1){
+	display: none;
+}
+.uo3{
+	width: 200px;
+	height: 210px;
+}
+.uo3-tags li:nth-of-type(2),.uo3-tags li:nth-of-type(3){
+	margin: 0 20px;
+}
+.uo3-tags li:nth-of-type(4){
+	margin-right: 10px;
+}
+.teleCharge{
+	background: url('../images/user-uo3-1.png');
+	width: 185px;
+	height: 180px;
+}
+.ariTicket{
+	background: url('../images/user-uo3-2.png');
+	width: 188px;
+	height: 180px;
+}
+.playGame{
+	background: url('../images/user-uo3-4.png');
+	width: 190px;
+	height: 180px;
+}
+.hotelOrder{
+	position: relative;
+}
+.uo3-a a{
+	display: inline-block;
+	margin: 5px 10px 0;
+}
+.uo3-con .hotelOrder input,
+.uo3-con .hotelOrder button,
+.uo3-con .hotelOrder uo3-a a{
+	margin-top: 10px;
+}
+.hotelOrder input:last-of-type{
+	display: block;
+	margin: 10px auto 0;
+}
+.hotelOrder uo3-a a{
+	float: right;
+}
+.hotelOrder uo3-a a:link{
+	color: rgb(84,118,219);
+}
+.hotelOrder .choosePlace{
+	display: none;
+	background-color: #fff;
+	position: absolute;
+	top: 72px;
+	left: -66px;
+	width: 320px;
+	border:solid 1px #bbb;
+}
+.hotelOrder .choosePlace>span{
+	display: block;
+	margin: 10px 5px;
+}
+.hotelOrder .choosePlace>ul{
+	height: 22px;
+	border-bottom: 1px solid #bbb;
+}
+.hotelOrder .choosePlace>ul>li{
+	float: left;
+	padding:0 5px;
+	height: 21px;
+}
+.choosePlace .choosePlace-active{
+	border:1px solid #bbb;
+	border-bottom: 1px solid #fff;
+
+}
+.hotelOrder .placeItem li{
+	display: none;
+}
+.placeItem a{
+	display: inline-block;
+	margin: 5px;
+	color: rgb(0,94,167);
+}
+.placeItem li span{
+	display: inline-block;
+	margin: 7px;
+	color: rgb(204,0,0);
+}
+.placeItem .p3{
+	width: 322px;
+	height: 123px;
+	background: url('../images/p3-item.png');
+}
+.placeItem .p4{
+	width: 322px;
+	height: 149px;
+	background: url('../images/p4-item.png');
+}
+.placeItem .p5{
+	width: 322px;
+	height: 125px;
+	background: url('../images/p5-item.png');
+}
+.placeItem .p6{
+	width: 322px;
+	height: 129px;
+	background: url('../images/p6-item.png');
+}
+.placeItem .p7{
+	width: 322px;
+	height: 226px;
+	background: url('../images/p7-item.png');
+}
+.placeItem .p8{
+	width: 322px;
+	height: 155px;
+	background: url('../images/p8-item.png');
+}
+.tag-active{
+	border-bottom: 1px red solid;
+}

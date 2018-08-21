@@ -1,0 +1,95 @@
+#header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgb(227,228,229);
+	height: 30px;
+	width: 1349px;
+	color: #999;
+}
+.nav-left{
+	float: left;
+	margin: 7px 0 0 250px;
+}
+.nav-left i{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background: url('../images/address.png') center center;
+	background-size: contain;
+}
+.nav-right{
+	float: right;
+	margin-right: 30px;
+}
+.nav-right>li{
+	height: 23px;
+	float: left;
+	list-style: none;
+	padding:7px 10px 0;
+	border-right: 1px solid #ddd;
+	position: relative;
+}
+.nav-right>li:nth-of-type(3):hover,
+.nav-right>li:nth-of-type(5):hover,
+.nav-right>li:nth-of-type(6):hover,
+.nav-right>li:nth-of-type(7):hover
+{
+	background-color: #fff;
+}
+.nav-right li i{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-right: 10px;
+	background: url('../images/arrow-down.png') center center;
+	margin: 0 3px;
+}
+.Myjdbox{
+	width: 160px;
+	height: 150px;
+	background-color: #fff;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+.Businessbox{
+	width: 80px;
+	height: 120px;
+	background-color: #fff;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+.Myjdbox ul,.Businessbox ul{
+	margin-top: 5px;
+}
+.Myjdbox li,.Businessbox li{
+	display: inline-block;
+	width: 70px;
+	margin: 5px 0 3px 10px;
+}
+.Customerbox{
+	width: 168px;
+	height: 245px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	background: url('../images/header-customer.png') no-repeat;
+}
+.Webnetbox{
+	width: 990px;
+	height: 179px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	background: url('../images/header-webnet.png') no-repeat;
+}
+.Codetow{
+	width: 187px;
+	height: 306px;
+	background: url(../images/jd-code.png);
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
